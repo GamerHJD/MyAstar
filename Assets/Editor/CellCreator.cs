@@ -63,7 +63,7 @@ public class CellCreator : EditorWindow
             creatPos = new Vector3(0, 0, i);
             for (int j = 0; j < width; j++)//行
             {
-                
+                  CreatMesh(size,i.ToString()+"-"+j.ToString());
             }
         }
 
